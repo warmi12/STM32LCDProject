@@ -4,8 +4,11 @@ Autorski projekt wykonany na platformie STM32, umożliwiający odtwarzanie muzyk
 Obsługę powyższych funkcji można dokonać za pomocą prostego GUI.
 
 Do zrobienia w przyszłości:
+
 -optymalizacja kody
+
 -dodanie funkcji rozgłaszania fal radiowych -> transmiter, dzięki któremu możemy odtwarzać muzykę na telefonie
+
 -dodnanie prostej gry (Snake/TeTris)
 
 Komponenty użyte do realizcji projektu:
