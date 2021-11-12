@@ -3,7 +3,7 @@
 Autorski projekt wykonany na platformie STM32, umożliwiający odtwarzanie muzyki oraz wyświetlanie zdjęć z karty SD.
 Obsługę powyższych funkcji można dokonać za pomocą prostego GUI.
 
-Komponenty użyte w projekcie:
+Komponenty użyte do realizcji projektu:
 
 -STM32 F303RE NUCLEO
 
@@ -11,4 +11,5 @@ Komponenty użyte w projekcie:
 
 -Waveshare WM8960 Audio Board
 
+Link do prezentacji projektu: https://youtu.be/LeE41udK63I
 
