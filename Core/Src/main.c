@@ -316,9 +316,9 @@ void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s)
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if (HAL_GetTick()-tick>100) {
+	tp_scan(0);
 	switch (pageNumber) {
 		case 0:
-			tp_scan(0);
 			if (s_tTouch.chStatus & TP_PRESS_DOWN) {
 				if (s_tTouch.hwXpos < LCD_WIDTH && s_tTouch.hwYpos < LCD_HEIGHT) {
 					if ((s_tTouch.hwYpos > 57 && s_tTouch.hwYpos < 118) && (s_tTouch.hwXpos < 118 && s_tTouch.hwXpos>60)) {
@@ -339,9 +339,6 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 			}
 			break;
 		case 1:
-				//HAL_I2S_DMAPause(&hi2s2);
-				tp_scan(0);
-				//HAL_I2S_DMAResume(&hi2s2);
 				if (s_tTouch.chStatus & TP_PRESS_DOWN) {
 					if (s_tTouch.hwXpos < LCD_WIDTH && s_tTouch.hwYpos < LCD_HEIGHT) {
 						if ((s_tTouch.hwXpos > 30 && s_tTouch.hwXpos < 55) && (s_tTouch.hwYpos < 315 && s_tTouch.hwYpos>295)) {
@@ -412,7 +409,6 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 				}
 			break;
 		case 2:
-			tp_scan(0);
 			if (s_tTouch.chStatus & TP_PRESS_DOWN) {
 				if (s_tTouch.hwXpos < LCD_WIDTH && s_tTouch.hwYpos < LCD_HEIGHT) {
 					if ((s_tTouch.hwXpos > 0 && s_tTouch.hwXpos < 120) && (s_tTouch.hwYpos < 220 && s_tTouch.hwYpos>0)) {
@@ -452,6 +448,11 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 		}
 
 	tick=HAL_GetTick();
+	s_tTouch.hwXpos0 = 0;
+	s_tTouch.hwYpos0 = 0;
+	s_tTouch.hwXpos = 0xffff;
+	s_tTouch.hwYpos = 0xffff;
+	s_tTouch.chStatus &= ~(1 << 7);
 	}
 }
 

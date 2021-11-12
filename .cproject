@@ -168,13 +168,5 @@
 		<project id="ComplexProjectAudioLCD.null.2016174086" name="ComplexProjectAudioLCD"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1380991586;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1380991586.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1966570544;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1855528564">
-			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.779955814;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.779955814.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1195654925;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1114189821">
-			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
+	<storageModule moduleId="scannerConfiguration"/>
 </cproject>
