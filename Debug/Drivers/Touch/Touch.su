@@ -1,0 +1,8 @@
+Touch.c:11:6:tp_init	0	static
+Touch.c:17:6:tp_draw_touch_point	40	static
+Touch.c:28:6:tp_draw_big_point	32	static
+Touch.c:36:6:tp_show_info	64	static
+Touch.c:71:9:tp_scan	8	static
+Touch.c:103:6:tp_adjust	128	static
+Touch.c:237:6:tp_dialog	16	static
+Touch.c:276:6:tp_draw_board	8	static

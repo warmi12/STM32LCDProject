@@ -1,0 +1,5 @@
+Play_WAV.c:56:9:ScanWavefiles	592	static
+Play_WAV.c:178:9:Get_WAV_Message	32	static
+Play_WAV.c:258:10:Fill_WAV_Buffer	32	static
+Play_WAV.c:112:9:PlayWaveFile	40	static
+Play_WAV.c:419:6:Key_Control	0	static

@@ -1,0 +1,5 @@
+fatfs_storage.c:101:10:Storage_OpenReadFile	600	static
+fatfs_storage.c:181:10:Storage_CopyFile	1128	static
+fatfs_storage.c:213:10:Storage_CheckBitmapFile	8	static
+fatfs_storage.c:230:10:Storage_GetDirectoryBitmapFiles	32	static
+fatfs_storage.c:278:9:Buffercmp	8	static
