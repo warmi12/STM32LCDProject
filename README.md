@@ -5,9 +5,9 @@ Obsługę powyższych funkcji można dokonać za pomocą prostego GUI.
 
 Do zrobienia w przyszłości:
 
--optymalizacja kody
+-optymalizacja kodu
 
--dodanie funkcji rozgłaszania fal radiowych -> transmiter, dzięki któremu możemy odtwarzać muzykę na telefonie
+-radio? -> transmiter, dzięki któremu możemy odtwarzać muzykę na telefonie
 
 -dodnanie prostej gry (Snake/TeTris)
 
