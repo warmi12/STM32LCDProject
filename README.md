@@ -7,7 +7,7 @@ Do zrobienia w przyszłości:
 
 -optymalizacja kodu
 
--radio? -> transmiter, dzięki któremu możemy odtwarzać muzykę na telefonie
+-radio? -> transmiter, dzięki któremu możemy odtwarzać muzykę np. na telefonie
 
 -dodnanie prostej gry (Snake/TeTris)
 
